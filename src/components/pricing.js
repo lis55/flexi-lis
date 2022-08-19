@@ -9,7 +9,6 @@ import CardHeader from '@mui/material/CardHeader';
 import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import StarIcon from '@mui/icons-material/StarBorder';
-import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import GlobalStyles from '@mui/material/GlobalStyles';
@@ -21,7 +20,7 @@ function Copyright(props) {
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+        Flexi-Lis
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -174,6 +173,7 @@ function PricingContent() {
           gutterBottom
         >
           <InstagramIcon fontSize='large' /> 
+          <Copyright/>
         </Typography>
     </React.Fragment>
   );
